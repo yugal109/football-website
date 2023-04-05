@@ -9,7 +9,7 @@ import { Link, useLocation, useParams } from 'react-router-dom'
 const Navbar = () => {
 
     const abc = useLocation()
-    console.log(abc);
+    const [open,setOpen]=useState(false)
     const [location, setLocation] = useState("")
     const [img, setImage] = useState(null)
     useEffect(() => {
@@ -27,7 +27,11 @@ const Navbar = () => {
         else {
             setImage(homagebanner)
         }
+
+      
+
     }, [abc])
+
 
     return (
         <div className="home_main">
@@ -36,14 +40,18 @@ const Navbar = () => {
 
                 <div className="header_logo">
                     <Link to="">
-                    <img src={logo11} alt="" />
+                        <img src={logo11} alt="" />
                     </Link>
 
                 </div>
-                {/* <Menu right customBurgerIcon={<img src={hambur} />} className="menu_list">
+                <Menu isOpen={open} right customBurgerIcon={<img src={hambur} />} className="menu_list">
                     <div className="menus">
+                    <Link to="" className="menuLinkColor">
                         <p>Home</p>
+                    </Link>
+                    <Link to="/about-us" className="menuLinkColor">
                         <p>About Us</p>
+                    </Link>
                         <p>Program</p>
                         <p>Blog</p>
                         <p>Gallery</p>
@@ -51,10 +59,15 @@ const Navbar = () => {
                         <p>Foundation</p>
                         <p>Contact US</p>
                     </div>
-                </Menu> */}
-                <div className="menus">
-                    <p>Home</p>
-                    <p>About Us</p>
+                </Menu>
+
+                <div style={{ zIndex: 10 }} className="menus">
+                    <Link to="" className="menuLinkColor">
+                        <p>Home</p>
+                    </Link>
+                    <Link to="/about-us" className="menuLinkColor">
+                        <p>About Us</p>
+                    </Link>
                     <p>Program</p>
                     <p>Blog</p>
                     <p>Gallery</p>
@@ -70,13 +83,13 @@ const Navbar = () => {
                             <div className="bannar_text_home">
                                 <h1>Lorem ipsum dolor sit amet</h1>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
                                 </p>
                                 <button>Join Now</button>
                             </div>
                             {img &&
                                 <img className="large_nav_image" src={img} alt="" />
                             }
-
                         </div>
 
                     </div>
@@ -91,7 +104,9 @@ const Navbar = () => {
 
             </section>
             <div className="after_res_img">
-                <img src={homagebanner} alt="" />
+                {img &&
+                    <img src={img} alt="" />
+                }
             </div>
         </div>
     )

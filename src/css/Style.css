@@ -186,6 +186,9 @@ img{
   margin-left: auto;
   height: 800px !important;  
 }
+.bm-burger-button{
+  display: none;
+}
 .header{
   position: absolute;
   top: 10px;
@@ -208,6 +211,10 @@ img{
 .menus p{
   margin-left: 14px;
 }
+.menuLinkColor{
+  color:var(--yellow)
+}
+
 .large_nav_image{
   /* width: 100%; */
   height: 10%;

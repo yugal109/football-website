@@ -66,7 +66,7 @@ const AboutUs = () => {
             <img src={fd} alt=""/>
             <div class="founder_massage_text">
                 <h2>FOUNDER'S MASSAGE</h2>
-                <p class="founder_msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident reiciendis, sed inventore deserunt voluptates saepe explicabo! Quaerat, quasi corporis! Dolore, beatae itaque quos reiciendis deleniti quis numquam ipsa odio blanditiis porro assumenda cum cupiditate, fuga ad repudiandae veritatis sed iure ipsa odio blanditiis porro assumenda cum cupiditate, fuga ad repudiandae assumenda veritatis sed iure.</p>
+                <p class="founder_msg">iure ipsa odio blanditiis porro assumenda cum cupiditate, fuga ad repudiandae assumenda veritatis sed iure.</p>
                 <p class="founder_name_left">- Lorem Impus</p>
             </div>
         </div>
@@ -95,7 +95,7 @@ const AboutUs = () => {
         </div>
     </div>
     <div class="mission_text">
-        <div class="mission_right_img">
+        <div class="vision_right_img">
             <img src={mission} alt=""/>
         </div>
         

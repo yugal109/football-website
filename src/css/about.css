@@ -111,14 +111,17 @@
     width: 100%;
 }
 .vision_text_left{
-    width: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
 }
 .vision_text_left p{
     font-size: 24px;
     padding: 50px;
 }
 .vision_text_right{
-    width: 50%;
+    width: 100%;
 }
 
 .vision_right_img{
@@ -170,3 +173,101 @@
 .mission_right_img img{
     object-fit: contain;
 }
+
+@media only screen and (max-width: 768px) {
+
+    .about_page_mainn .bannar {
+    margin-bottom: 0 !important;
+    }
+    .about_page_mainn .bannar .bannar_img img {
+    width: 100% !important;
+    }
+    
+    .about {
+    margin-bottom: 50px;
+    }
+    .mbA {
+    margin-bottom: 18px;
+    }
+    .about .about_title {
+    font-size: 28px;
+    width: 150px;
+    }
+    .about .about_title span {
+    font-size: 36px;
+    }
+    .about_text {
+    padding: 0 20px;
+    margin: 18px 0;
+    }
+    .about_block{
+        width: 50rem;
+    }
+    .about_block_row {
+    padding: 20px;
+    }
+    .about_block_bg_icon {
+    height: 60px;
+    width: 60px;
+    }
+    .about_block_title {
+    font-size: 20px;
+    margin: 8px 0;
+    }
+    
+    .founder_massage {
+    margin-bottom: 100px;
+    font-size: small;
+    }
+    .founder_massage_text {
+    top: 40px;
+    left: 20px;
+    width: 80%;
+    }
+    .founder_massage_text h2 {
+    margin-bottom: 40px;
+    font-size: 32px;
+    }
+    .founder_massage_text .founder_msg {
+    font-size: 16px;
+    line-height: 24px;
+    }
+    .founder_name_left {
+    font-size: 22px;
+    margin-top: 16px;
+    }
+    
+    #parallelogramLeft {
+    width: 150px;
+    border-bottom: 40px solid var(--blue);
+    border-right: 30px solid transparent;
+    padding-left: 30px;
+    }
+    .about_trio_titles p {
+    font-size: 28px;
+    }
+    .vision_text{
+        display: block;
+
+    }
+    .vision_text_left{
+        width: 100%;
+    }
+    
+    .vision_text_left p {
+    font-size: 20px;
+    padding: 20px;
+    }
+    
+    .mission_text_right {
+    width: 100%;
+    }
+    .Mission_text_left p {
+    font-size: 20px;
+    padding: 20px;
+    text-align: left;
+    }
+    .vision_right_img{
+        display: none;
+    }
+    }

@@ -5,6 +5,9 @@
 .bannar{
   display: none;
 }
+.bm-burger-button{
+  display: block;
+}
 
 .bannar_img
 {

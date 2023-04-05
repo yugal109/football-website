@@ -1,0 +1,65 @@
+
+
+.summer_camp_page_title{
+    background-color: var(--blue);
+    padding: 5px 20px;
+    font-size: 34px;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--yellow);
+    text-transform: uppercase;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.summer_camp_page_title_two{
+    background-color: var(--blue);
+    padding: 5px 20px;
+    font-size: 34px;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--yellow);
+    text-transform: uppercase;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.summer_camp_content_intro{
+    font-size: 26px;
+    padding: 0 40px;
+    text-align: center;
+    color: var(--blue);
+}
+.summer_camp_content_img{
+    width: 80%;
+    margin: 30px auto;
+}
+.summer_camp_content_last_p{
+    font-size: 30px;
+    padding: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--blue);
+}
+.summer_camp_content_last_h4{
+    font-size: 30px;
+    padding: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.summer_camp_btn{
+    background-color: var(--blue) !important;
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+    padding: 16px 12px;
+    text-align: end;
+}
+.summer_camp_btn_div{
+    display: flex;
+    justify-content: center;
+}

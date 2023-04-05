@@ -1,0 +1,570 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+:root{
+  --yellow:#EED510;
+  --blue:#11133C;
+  --gray:#575757;
+  --black:rgb(0, 0, 0);
+  --white:rgb(255, 255, 255);
+}
+p,h1,h2,h3,h4,h5,h6{
+  margin: 0 ;
+  padding: 0 ;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+/* ********************** Common CSS START *******************  */
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+.trapezoid_for_title_up{
+  width: 100px;
+  height: 6px;
+  font-weight: bolder;
+  transform: skewX(-20deg);
+  background-color: var(--yellow);
+  position: relative;
+  right: 100px;
+}
+
+.trapezoid_for_title_down{
+  width: 100px;
+  height: 6px;
+  font-weight: bolder;
+  transform: skewX(-20deg);
+  background-color: var(--yellow);
+  position: relative;
+  left: 100px;
+}
+
+.trapezoidYellow {
+  border-bottom: 60px solid var(--yellow);
+  border-left: 0px solid transparent;
+  border-right: 24px solid transparent;
+  position: relative;
+  width: 300px;
+  font-weight: bolder;
+  font-size: 26px;
+  padding-left: 50px;
+  margin-bottom: 50px;
+}
+.trapezoidYellowTitle {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-align: right;
+}
+
+.trapezoidWhite {
+  border-bottom: 30px solid var(--white);
+  border-left: 0px solid transparent;
+  border-right: 20px solid transparent;
+  position: relative;
+  width: 140px;
+  /* font-weight: bolder; */
+  /* font-size: 26px; */
+}
+.trapezoidWhite_title{
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: right;
+}
+
+.bg_blue{
+  background-color: var(--blue);
+}
+ul,li,ul .list-group{
+  list-style: disc !important;
+  margin: 0;
+  padding: 0;
+}
+a{
+  color: white;
+}
+img{
+  max-width: 100%;
+}
+.bannar_text_home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 90rem;
+  padding-left: 50px;
+}
+
+.bannar_text_home h1{
+  color: var(--blue);
+  font-size: 70px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.bannar_text_home p{
+  color: var(--blue);
+  margin: 22px 0;
+  font-size: 24px;
+  padding-right: 40px;
+}
+.bannar_text_home button{
+  background-color: var(--blue);
+  padding: 6px 12px;
+  color: white;
+  font-weight: 500;
+  border-radius: 12px;
+}
+
+.lts_video_line{
+  width: 12%;
+  background-color: var(--blue);
+  height: 3px !important;
+  margin-bottom: 10px;
+}
+
+.lts_video{
+  margin-bottom: 100px;
+  /* margin-top: 340px; */
+}
+.video_block{
+  height: 320px !important;
+}
+.video_title_watch_now{
+  position: absolute;
+  top: 20px;
+}
+
+.video_block .play_icon{
+  font-size: 50px;
+}
+.video_block p{
+  margin-left: 15px;
+}
+.video_mini_title{
+  font-size: 14px;
+}
+
+/* -------------- bannar --------- */
+
+.bannar{
+  margin-bottom: 80px;
+}
+.bannar_main{
+  position: relative;
+}
+.home_main
+{
+  height: 100%;
+
+}
+/* .home_main  */
+.bannar_img
+{
+  display: flex;
+  flex-direction: flex-start;
+  /* height: 500px; */
+
+}
+.home_main .bannar_img img{
+  position: relative;
+  width: 800px !important;
+  margin-left: auto;
+  height: 800px !important;  
+}
+.header{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+}
+.header_logo{
+  height: 100px;
+  width: 100px;
+}
+.menus{
+  color: var(--yellow);
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  margin-left: 40px;
+}
+.menus p{
+  margin-left: 14px;
+}
+.large_nav_image{
+  /* width: 100%; */
+  height: 10%;
+}
+
+
+
+.after_res_img{
+  display: none;
+}
+
+
+/* --------- service ------- */
+
+.services_title{
+  font-size: 24px;
+  font-weight: bolder;
+  /* padding-left: 80px; */
+  color: var(--blue);
+}
+.service_block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service_image{
+  height: 400px;
+  width: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+/* -------- mission_vision ------ */
+
+.mission_vision{
+  background-color: var(--yellow);
+  margin: 80px 0;
+  padding-bottom: 80px;
+}
+.mission_vision_title{
+  font-size: 32px;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 20px;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+.mission_vision_logo{
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}
+
+
+/* -------- players ------ */
+.players{
+  margin-bottom: 100px;
+}
+.players_title{
+  background-color: var(--blue);
+  padding: 5px 20px;
+  font-size: 34px;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  width: 200px;
+  margin: auto;
+}
+
+.trapezoid_players_title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: right;
+}
+.trapezoid_players {
+  width: 220px;
+  height: 400px;
+  position: relative;
+  background: var(--blue);
+  margin-top: 140px;
+}
+
+.trapezoid_players:before {
+  content: "";
+  position: absolute;
+  top: -70px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 220px solid transparent;
+  border-bottom: 70px solid var(--blue);
+}
+.trapezoid_players_left {
+  width: 220px;
+  height: 400px;
+  position: relative;
+  background: var(--blue);
+  margin-top: 140px;
+  rotate: 180deg;
+}
+.trapezoid_players_left:before {
+  content: "";
+  position: absolute;
+  bottom: -70px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 220px solid transparent;
+  border-top: 70px solid var(--blue);
+}
+.players .row{
+  justify-content: center;
+  
+}
+.players .players_border{
+  width: 4px;
+  background-color: var(--blue);
+  padding: 0 !important;
+  margin-top: 50px;
+}
+.players_content{
+  display: flex;
+  justify-content: space-between;
+}
+.players .senior{
+  rotate: 270deg;
+  font-size: 80px;
+  font-weight: bolder;
+  color: var(--yellow);
+  position: absolute;
+  bottom: 32%;
+  left: -152px;
+  letter-spacing: 3px;
+}
+.players .senior_plyR{
+  rotate: 270deg;
+  font-size: 40px;
+  font-weight: bolder;
+  color: var(--yellow);
+  position: absolute;
+  top: 20%;
+  left: 48%;
+  letter-spacing: 3px;
+}
+.players .senior_left{
+  rotate: 90deg;
+  font-size: 80px;
+  font-weight: bolder;
+  color: var(--yellow);
+  position: absolute;
+  bottom: 32%;
+  right: -158px;
+  letter-spacing: 3px;
+}
+.players .senior_plyR_left{
+  rotate: 90deg;
+  font-size: 40px;
+  font-weight: bolder;
+  color: var(--yellow);
+  position: absolute;
+  bottom: 20%;
+  right: 48%;
+  letter-spacing: 3px;
+}
+
+
+
+/* --------- achievements ------ */
+.achievements{
+  margin-bottom: 100px;
+}
+.achievements .achievements_title{
+  background-color: var(--blue);
+  padding: 5px 20px;
+  font-size: 34px;
+  font-weight: bolder;
+  text-align: center;
+  color: var(--yellow);
+  text-transform: uppercase;
+  width: 500px;
+  margin: auto;
+}
+.achievements .achive_img{
+  background-color: var(--blue);
+  height: 400px;
+  position: relative;
+}
+.achievements .achive_icon{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: var(--yellow);
+  font-size: 36px;
+}
+.achievements .achive_text{
+  padding: 10px;
+}
+.achievements_content{
+  margin-top: 30px;
+}
+.achievements .achievements_content .read_more_btn{
+  background-color: var(--yellow);
+  border-radius: 5px;
+  padding: 0 5px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.achievements .achievements_content .row{
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  appearance: none !important;
+  padding-bottom: 40px;
+
+}
+
+
+.achievements .achievements_content .row::-webkit-scrollbar {
+  width: 5px;
+  height: 6px;
+}
+                  
+.achievements .achievements_content .row::-webkit-scrollbar-track {
+  background-color: #c8c6c6b3;
+  border-radius: 10px;
+}
+                  
+.achievements .achievements_content .row::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: var(--blue);
+}
+
+
+/* ------- CLUB -------- */
+
+.club{
+  margin-bottom: 100px;
+}
+.club .club_title{
+  background-color: var(--blue);
+  padding: 5px 20px;
+  font-size: 34px;
+  font-weight: bolder;
+  text-align: center;
+  color: var(--yellow);
+  text-transform: uppercase;
+  width: 300px;
+  margin: auto;
+}
+
+.club_content{
+  margin-top: 100px;
+}
+.club_block{
+  height: 400px !important;
+  background-color: var(--blue);
+  position: relative;
+}
+.club_block .club_block_number{
+  color: var(--yellow);
+  font-size: 100px;
+  font-weight: bolder;
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.club_player_name{
+  margin-top: 8px;
+  color: var(--blue);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* ---------- footer ------ */
+
+.footer{
+  background: url("../img/football-grass.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-weight: 500;
+  position: relative;
+  /* margin-top: 20rem; */
+}
+.overlay{
+  background: rgb(0, 0, 0);
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .5;
+  z-index: -111;
+}
+
+.footer p{
+  color: rgb(255, 255, 255);
+}
+.footer_logo_col img{
+  max-width: 250px;
+  margin-bottom: 30px;
+}
+.footer .list-group li{
+  margin-bottom: 10px ;
+}
+.footer .list-group{
+  margin-top: 60px ;
+  margin-left: 24px;
+}
+.footer .footer_title{
+  text-decoration: underline;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.footer_contect{
+  line-height: 30px;
+}
+.footer .footer_trials_no{
+  
+}
+.footer .footer_trials_no p{ 
+  display: inline-block;
+  background-color: black;  
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.social_icon{
+  justify-content: end;
+  display: flex;
+}
+
+.social_icon_bg{
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 6px;
+  flex-direction: row;
+}
+.footer_logo{
+  height: 150px;
+  width: 180px;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
+

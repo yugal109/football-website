@@ -1,0 +1,172 @@
+.about_page_mainn .bannar{
+    margin-bottom: 0 !important;
+}
+.about_page_mainn .bannar .bannar_img img{ 
+    width: 100% !important;
+}
+
+.about{
+    margin-bottom: 100px;
+}
+.mbA{
+    margin-bottom: 22px;
+}
+.about .about_title{
+    background-color: var(--yellow);
+    padding: 5px 20px;
+    font-size: 34px;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--blue);
+    text-transform: uppercase;
+    width: 200px;
+    margin: auto;
+}
+.about .about_title span{
+    font-size: 50px;
+}
+.about_text{
+    padding: 0 120px;
+    text-align: center;
+    margin: 26px 0;
+    font-weight: 400;
+}
+.about_block_row{
+    padding: 34px;
+}
+.about_block{
+    padding: 10px;
+    text-align: center;
+}
+.about_block_bg{
+    background-color: var(--blue);
+    color: var(--yellow);
+    padding: 22px 12px;
+}
+.about_block_bg_icon{
+    height: 80px;
+    width: 80px;
+    margin: auto;
+}
+.about_block_title{
+    font-weight: bold;
+    margin: 12px 0;
+}
+
+.founder_massage{
+    margin-bottom: 70px;
+}
+.founder_bg{
+   position: relative;
+}
+.founder_massage_text{
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    color: var(--yellow);
+    width: 40%;
+}
+.founder_massage_text h2{
+    margin-bottom: 60px;
+    font-weight: bolder;
+    font-size: 42px;
+}
+.founder_massage_text .founder_msg{
+    font-size: 18px;
+    line-height: 30px;
+}
+.founder_name_left{
+    text-align: end;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 22px;
+}
+
+
+
+#parallelogramLeft {
+    height: 0;
+	width: 230px;
+	border-bottom: 60px solid var(--blue);
+	border-left: 0px solid transparent;
+	border-right: 50px solid transparent;
+    /* padding: 25px; */
+    color: var(--yellow);
+    padding-left: 50px;
+}
+.about_trio_titles{
+    padding-top: 6px;
+}
+.about_trio_titles p{
+    font-size: 32px;
+    font-weight: bolder;
+}
+.vision_text{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.vision_text{
+    width: 100%;
+}
+.vision_text_left{
+    width: 50%;
+}
+.vision_text_left p{
+    font-size: 24px;
+    padding: 50px;
+}
+.vision_text_right{
+    width: 50%;
+}
+
+.vision_right_img{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+}
+.vision_right_img img{
+    object-fit: contain;
+}
+
+
+/* ----  mission ------  */
+#parallelogramRight {
+    height: 0;
+	width: 230px;
+	border-bottom: 60px solid var(--blue);
+	border-left: 50px solid transparent;
+	border-right: 0px solid transparent;
+    color: var(--yellow);
+    padding-left: 30px;
+    margin-left: auto;
+}
+.about_mission{
+    margin-top: 40px;
+}
+.mission_text{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.vision_text{
+    width: 100%;
+}
+.mission_text_right{
+    width: 50%;
+}
+.Mission_text_left p{
+    font-size: 24px;
+    padding: 50px;
+    text-align: right;
+}
+.mission_right_img{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+}
+.mission_right_img img{
+    object-fit: contain;
+}

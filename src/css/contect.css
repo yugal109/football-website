@@ -1,0 +1,68 @@
+.contect_banner{
+    height: 100%;
+    width: 100%;
+}
+.contect_banner img{
+    height: 100%;
+    width: 100%;
+}
+
+.contect-page{
+    margin: 120px 0;
+}
+
+.conct_page_title{
+    background-color: var(--blue);
+    padding: 5px 20px;
+    font-size: 34px;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--yellow);
+    text-transform: uppercase;
+    width: 300px;
+    margin: auto;
+}
+
+.contect{
+    margin-top: 50px;
+}
+
+.contect_form{
+    padding: 30px 80px 30px 10px;
+}
+.contect_form input,textarea{
+    outline: none;
+    border: none;
+    padding: 6px;
+}
+.contect_form button{
+    padding: 10px 50px;
+    background-color: var(--blue);
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.contect_form input,textarea{
+    background-color: rgba(241, 241, 241, 0.904);
+}
+
+.footer_text{
+    padding: 50px 0;
+    
+}
+.contect_block{
+    background-color: var(--blue);
+}
+.contect_block p{
+    margin: 0;
+}
+.contect_block i{
+    font-size: 35px;
+}
+.ftp{
+    margin: 0 auto;
+}
+
+.main_footer{
+    background-color: rgb(19, 19, 19);
+}

@@ -1,0 +1,161 @@
+.program_academy_traning_page{
+    margin-bottom: 80px;
+}
+
+.pat_title{
+    background-color: var(--blue);
+    padding: 5px 20px;
+    font-size: 34px;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--yellow);
+    text-transform: uppercase;
+    width: 400px;
+    margin: auto;
+}
+
+.bannar_pat{
+    margin-bottom: 60px;
+}
+.banner_img_pat{
+    position: relative;
+}
+.bannar_title_pat{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.bannar_title_pat h1{
+    font-size: 200px;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    color: var(--yellow);
+}
+
+.pat_content_main{
+    margin-top: 80px;
+    padding: 0 60px;
+}
+.privete_traning{
+    display: flex;
+    width: 100%;
+}
+.fitness_traning{
+    display: flex;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.privete_traning_title{
+    position: relative;
+    width: 50%;
+    padding: 50px;
+}
+.privete_traning_img{
+    width: 50%;
+    position: relative;
+}
+
+.privete_traning_title_bg{
+    width: 400px; 
+    height: 70px; 
+    background: var(--yellow);
+    transform: skew(25deg); 
+    -o-transform: skew(25deg); 
+    -moz-transform: skew(25deg);
+    -webkit-transform: skew(25deg);
+    display: block;
+}
+.privete_traning_title_text{
+    position: absolute;
+    top: 60px;
+    left: 75px;
+    color: var(--blue);
+    font-weight: bolder;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.pvt_training_content{
+    margin: 30px 0;
+}
+.pvt_training_list{
+    margin-bottom: 16px;
+}
+.pvt_training_list_text{
+    display: flex;
+}
+.pvt_training_list_text i{
+    font-size: 32px;
+    margin-right: 16px;
+    padding-top: 6px;
+}
+.pvt_training_list_text p{
+    font-size: 26px;
+}
+
+.pvt_traning_btn{
+    background-color: var(--blue) !important;
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+    padding: 16px 12px;
+    margin-left: 52px;
+}
+
+
+.fitness_traning .privete_traning_title{
+    text-align: end;
+}
+
+.fitness_title{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.fitness_title_bg{
+    width: 400px; 
+    height: 70px; 
+    background: var(--yellow);
+    transform: skew(25deg); 
+    -o-transform: skew(25deg); 
+    -moz-transform: skew(25deg);
+    -webkit-transform: skew(25deg);
+    margin-left: auto;
+}
+.fitness_text_p{
+    text-align: end;
+    margin: 30px 0;
+    font-size: 26px;
+    padding-left:26px;
+}
+.fitness_text_p p:first-child{
+    margin-bottom: 24px;
+}
+.fitness_content{
+    width: 50%;
+}
+
+.fitness_traning_btn{
+    background-color: var(--blue) !important;
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+    padding: 16px 12px;
+    text-align: end;
+}
+.fitness_traning_btn_div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fitness_traning_title_text{
+    position: absolute;
+    top: 14px;
+    right: 24px;
+    color: var(--blue);
+    font-weight: bolder;
+    font-size: 34px;
+    text-transform: uppercase;
+}

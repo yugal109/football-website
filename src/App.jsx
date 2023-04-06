@@ -6,7 +6,9 @@ import Footer from './components/Footer'
 import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom'
 import HomeScreen from './screens/HomeScreen'
 import MainLayout from './layouts/MainLayout'
-import AboutUs from './screens/AboutUs'
+import ContactUs from "./screens/ContactUs"
+import AboutUs from './screens/AboutUs';
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
           {/* <Route  path="/" element={<MainLayout/>}> */}
             <Route exact path="/" element={<HomeScreen/>}/>
             <Route  path="/about-us" element={<AboutUs/>}/>
+            <Route  path="/contact-us" element={<ContactUs/>}/>
             {/* </Route> */}
       </Routes>
             <Footer/>

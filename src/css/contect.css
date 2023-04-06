@@ -66,3 +66,26 @@
 .main_footer{
     background-color: rgb(19, 19, 19);
 }
+
+    .resp{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+@media only screen and (max-width: 768px) {
+    .contect_form
+    {
+        width: 100%;
+        margin-left: 2rem; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contect_form div{
+        width: 100%;
+    }
+}

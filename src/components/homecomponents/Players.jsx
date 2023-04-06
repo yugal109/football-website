@@ -18,7 +18,7 @@ const Players = () => {
 
                         <div className="">
                             <div className="trapezoid_players">
-                                <p className="senior">SENIOR</p>
+                                <p className="senior">JUNIOR</p>
                                 <p className="senior_plyR">PLAYERS</p>
                                 {/* hello */}
                                 {/* <img src={player1}/> */}
@@ -31,7 +31,7 @@ const Players = () => {
 
                         <div className="">
                             <div className="trapezoid_players_left">
-                                <p className="senior_left">JUNIOR</p>
+                                <p className="senior_left">SENIOR</p>
                                 <p className="senior_plyR_left">PLAYERS</p>
                                 <img src={player}/>
                             </div>

@@ -9,7 +9,12 @@ const Services = () => {
   return (
     <section className="services">
     <div className="container">
+    <div style={{marginBottom:60}} className="players_title">
+        what we offer
+        </div>
+
         <div className="row">
+            
             <div className="col-12 col-md-6 service_block ">
                 <div className="trapezoid_for_title_up">
                 </div>

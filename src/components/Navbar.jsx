@@ -80,6 +80,12 @@ const NavBar = () => {
                       <Link to="/contact-us" className="menuLinkColor">
                         <p>Contact US</p>
                       </Link>
+
+                      <Link to="/programs" className="menuLinkColor">
+                        <p>Programs</p>
+                      </Link>
+
+
                     </Nav>
                   </Offcanvas.Body>
                 </Navbar.Offcanvas>
@@ -124,7 +130,7 @@ const NavBar = () => {
           <div class="gfg">
              <img className="program_image" src={img} alt="" />
           <h1 class="first-txt">
-             PROGRAMS 
+             PROGRAM 
           </h1>
         
       </div>

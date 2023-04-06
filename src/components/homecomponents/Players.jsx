@@ -31,7 +31,7 @@ const Players = () => {
 
                         <div className="">
                             <div className="trapezoid_players_left">
-                                <p className="senior_left">SENIOR</p>
+                                <p className="senior_left">JUNIOR</p>
                                 <p className="senior_plyR_left">PLAYERS</p>
                                 <img src={player}/>
                             </div>

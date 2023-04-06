@@ -159,3 +159,72 @@
     font-size: 34px;
     text-transform: uppercase;
 }
+.privete_traning_new
+{
+    /* background-color: red; */
+}
+.privete_traning_title_new{
+    /* background-color: green; */
+}
+.program_css{
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .pat_title {
+    width: 100%;
+    }
+    .bannar_title_pat h1 {
+    font-size: 120px;
+    }
+    .privete_traning, .fitness_traning {
+    flex-direction: column;
+    }
+    .privete_traning_title, .privete_traning_img, .fitness_content {
+    width: 100%;
+    }
+    .privete_traning_title, .fitness_title {
+    padding: 30px;
+    }
+    .privete_traning_title_bg {
+    width: 300px;
+    height: 50px;
+    display: none;
+    }
+    .privete_traning_title_text, .fitness_traning_title_text {
+    font-size: 28px;
+    }
+    .pvt_training_list_text i {
+    font-size: 28px;
+    padding-top: 4px;
+    }
+    .pvt_training_list_text p {
+    font-size: 22px;
+    }
+    .pvt_traning_btn, .fitness_traning_btn {
+    margin-left: 0;
+    margin-top: 30px;
+    text-align: center;
+    }
+    .fitness_traning_btn_div {
+    justify-content: center;
+    }
+    /* .privete_traning_title_text{
+        margin-bottom: 3rem !important;
+    } */
+    .privete_traning_title{
+        margin-bottom: -10rem;
+    }
+
+    .privete_traning_title_text
+    {
+        margin-top: -5rem;
+
+    }
+    .fitness_traning_title_text{
+
+        margin-top: 2rem;
+        margin-right: 1rem;
+    }
+
+    }

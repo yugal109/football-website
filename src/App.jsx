@@ -8,6 +8,7 @@ import HomeScreen from './screens/HomeScreen'
 import MainLayout from './layouts/MainLayout'
 import ContactUs from "./screens/ContactUs"
 import AboutUs from './screens/AboutUs';
+import Programs from "./screens/Programs"
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Route exact path="/" element={<HomeScreen/>}/>
             <Route  path="/about-us" element={<AboutUs/>}/>
             <Route  path="/contact-us" element={<ContactUs/>}/>
+            <Route  path="/programs" element={<Programs/>}/>
             {/* </Route> */}
       </Routes>
             <Footer/>

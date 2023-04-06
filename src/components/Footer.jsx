@@ -19,11 +19,11 @@ const Footer = () => {
                             <i className="footer_title">Quick Links</i>
                             <ul className="list-group">
                                 <a href="./index.html"><li className="">Home</li></a>
-                                <a href="./about.html"><li className="">About</li></a>
-                                <a href="./program.html"><li className="">Program</li></a>
+                                <a href="./about-us"><li className="">About</li></a>
+                                <a href="./programs"><li className="">Program</li></a>
                                 <a href=""><li className="">Gallery</li></a>
                                 <a href=""><li className="">Technical Team</li></a>
-                                <a href="./contect.html"><li className="">Contect</li></a>
+                                <a href="./contact-us"><li className="">Contect</li></a>
                                 <a href=""><li className="">Privecy Policy</li></a>
                                 <a href=""><li className="">Refund Policy</li></a>
                                 <a href=""><li className="">Terms and Conditions</li></a>

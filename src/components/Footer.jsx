@@ -23,7 +23,7 @@ const Footer = () => {
                                 <a href="./programs"><li className="">Program</li></a>
                                 <a href=""><li className="">Gallery</li></a>
                                 <a href=""><li className="">Technical Team</li></a>
-                                <a href="./contact-us"><li className="">Contect</li></a>
+                                <a href="./contact-us"><li className="">Contact</li></a>
                                 <a href=""><li className="">Privecy Policy</li></a>
                                 <a href=""><li className="">Refund Policy</li></a>
                                 <a href=""><li className="">Terms and Conditions</li></a>

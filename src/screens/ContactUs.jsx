@@ -5,11 +5,12 @@ const ContactUs = () => {
   return (
     <section className="contect-page">
 
-        <div className="conct_page_title" >
-            Contact Us
-        </div>
+      
 
         <div className="footer_img">
+  <div style={{marginLeft:50}} className="conct_page_title" >
+            Contact Us
+        </div>
             {/* <!-- <img src="images/h-dark-parallax.jpg" alt=""> --> */}
             <div className="container footer_text text-white">
                 <div className="row justify-content-center">

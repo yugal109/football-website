@@ -102,7 +102,7 @@ const SecondOne=()=>{
       <div className="pat_title">SCHOOL/UNIVERSITY COACHING & SCHOLARSHIP PROGRAM</div>
 
       <div className="pat_title_main">
-        <h1>
+        <h1 style={{fontSize:20,fontWeight:900}}>
         Do you want to take your school or university team to next level?
         </h1>
       </div>

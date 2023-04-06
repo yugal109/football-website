@@ -63,24 +63,33 @@ const Footer = () => {
                     </div>
                     <div className="social_icon mt-3">
                         <div className="social_icon_bg">
+                            <a style={{color:"black"}} href="https://www.facebook.com/">
                             <i className="fab fa-facebook-f"></i>
+                            </a>
                         </div>
 
                         <div className="social_icon_bg">
+                            <a style={{color:"black"}} href="https://twitter.com/i/flow/login">
                             <i className="fab fa-twitter"></i>
+                            </a>
                         </div>
 
                         <div className="social_icon_bg">
+
+                            <a style={{color:"black"}} href="https://www.instagram.com/?hl=en">
                             <i className="fa-brands fa-instagram"></i>
+                            </a>
                         </div>
 
                         <div className="social_icon_bg">
+                            <a style={{color:"black"}} href="https://in.linkedin.com/">
                             <i className="fab fa-linkedin-in"></i>
+                            </a>
                         </div>
 
-                        <div className="social_icon_bg">
+                        {/* <div className="social_icon_bg">
                             <i className="fab fa-facebook-f"></i>
-                        </div>
+                        </div> */}
 
                     </div>
                 </div>

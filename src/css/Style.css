@@ -479,7 +479,7 @@ img{
 }
 .club_block .club_block_number{
   color: var(--yellow);
-  font-size: 100px;
+  font-size: 150px;
   font-weight: bolder;
   position: absolute;
   top: 2%;

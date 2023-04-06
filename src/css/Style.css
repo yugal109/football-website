@@ -198,8 +198,8 @@ img{
   align-items: center;
 }
 .header_logo{
-  height: 100px;
-  width: 100px;
+  height: 140px;
+  width: 140px;
 }
 .menus{
   color: var(--yellow);
@@ -342,7 +342,7 @@ img{
 }
 .players_content{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .players .senior{
   rotate: 270deg;
@@ -550,7 +550,7 @@ img{
   margin-bottom: 10px;
 }
 .social_icon{
-  justify-content: end;
+  justify-content: center;
   display: flex;
 }
 
@@ -568,10 +568,17 @@ img{
   flex-direction: row;
 }
 .footer_logo{
-  height: 150px;
-  width: 180px;
+  width: 30%;
+  /* height: 150px;
+  padding:2rem;
   margin-left: auto;
-  margin-bottom: 20px;
+   */
+  margin-bottom: 5rem;
+}
+.footer_logo_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 

@@ -15,24 +15,33 @@
     background-color: var(--yellow);
     padding: 5px 20px;
     font-size: 34px;
+    margin-bottom: 1rem !important;
     font-weight: bolder;
     text-align: center;
     color: var(--blue);
     text-transform: uppercase;
-    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    
+    
     margin: auto;
 }
 .about .about_title span{
     font-size: 50px;
 }
 .about_text{
-    padding: 0 120px;
+    /* padding: 0 120px; */
     text-align: center;
-    margin: 26px 0;
-    font-weight: 400;
+    /* margin:8rem 0; */
+    /* font-weight: 400; */
+    margin:3rem
 }
 .about_block_row{
-    padding: 34px;
+    /* padding: 34px; */
 }
 .about_block{
     padding: 10px;
@@ -173,6 +182,10 @@
 .mission_right_img img{
     object-fit: contain;
 }
+.founder_bg_img
+{
+    width: 100%;
+}
 
 @media only screen and (max-width: 768px) {
 
@@ -191,14 +204,17 @@
     }
     .about .about_title {
     font-size: 28px;
-    width: 150px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 250px;
+    height: 200px;
     }
     .about .about_title span {
     font-size: 36px;
     }
     .about_text {
     padding: 0 20px;
-    margin: 18px 0;
+    margin: 28px 0;
     }
     .about_block{
         width: 50rem;

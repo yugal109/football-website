@@ -5,6 +5,7 @@ import scr from "../img/soccer-jersey.png"
 import sports from "../img/sports.png"
 import sch from "../img/scholarship.png"
 import fd from "../img/founder_bg.png"
+import ceo from "../img/ceo.jpeg"
 import vision from "../img/vision.png"
 import mission from "../img/mission.png"
 
@@ -14,7 +15,7 @@ const AboutUs = () => {
     <div class="about_title">
         THE <br/> <span>Club</span> 
     </div>
-    <p class="about_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis alias quibusdam modi magnam! Dolor iure tempore mollitia exercitationem expedita in, iste culpa quasi consequatur ipsum necessitatibus corrupti modi corporis beatae distinctio quaerat omnis aliquam, nisi quam, nam fugiat vitae hic nesciunt? Sunt libero quasi odit minima laboriosam eos perferendis non?</p>
+    <p class="about_text">damnLorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis alias quibusdam modi magnam! Dolor iure tempore mollitia exercitationem expedita in, iste culpa quasi consequatur ipsum necessitatibus corrupti modi corporis beatae distinctio quaerat omnis aliquam, nisi quam, nam fugiat vitae hic nesciunt? Sunt libero quasi odit minima laboriosam eos perferendis non?</p>
 
     <div class="container-fluid">
         <div class="row about_block_row">
@@ -63,7 +64,7 @@ const AboutUs = () => {
 
     <section class="founder_massage"> 
         <div class="founder_bg">
-            <img src={fd} alt=""/>
+            <img src={ceo} className='founder_bg_img'  alt=""/>
             <div class="founder_massage_text">
                 <h2>FOUNDER'S MASSAGE</h2>
                 <p class="founder_msg">iure ipsa odio blanditiis porro assumenda cum cupiditate, fuga ad repudiandae assumenda veritatis sed iure.</p>

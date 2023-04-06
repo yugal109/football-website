@@ -7,8 +7,12 @@ const Footer = () => {
             <footer>
                 <div className="overlay"></div>
                 <div className="container text-white py-5">
+                    <div className='footer_logo_div'>
                     <div className="footer_logo">
                         <img src={logo11} alt="" />
+                    </div>
+
+
                     </div>
                     <div className="row">
                         <div className="col-lg-2 col-md-6 col-sm-12 mt-4 mt-lg-0">

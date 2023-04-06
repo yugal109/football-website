@@ -47,8 +47,9 @@
     color:red
   }
   .header_logo {
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 110px;
+    padding:0.3rem
   }
   
   .menus {
@@ -110,4 +111,14 @@
   .menuLinkColor{
     padding:0.3rem
   }
+  .footer_logo{
+    /* height: 150px; */
+    padding:2rem;
+    width: 100%;
+    margin-left: auto;
+    margin-bottom: 20px;
+  }
+  
+
+  
 }

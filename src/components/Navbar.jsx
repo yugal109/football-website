@@ -21,8 +21,14 @@ import "../css/programs.css";
 const NavBar = () => {
   const abc = useLocation();
   const [basicOpen, setBasicOpen] = useState(false);
+  const [expanded, setExpanded] = useState(false);
+
+  const handleToggle = () => {setExpanded(expanded => !expanded)
+    console.log("clicked")
+  };
   const [location, setLocation] = useState("");
   const [img, setImage] = useState(null);
+   const [show, setShow] = useState(true);
 
   useEffect(() => {
     if (abc.pathname == "/") {
@@ -40,6 +46,12 @@ const NavBar = () => {
     } else {
       setImage(homagebanner);
     }
+    // setShow(false);
+    const a=document.getElementsByClassName('offcanvas offcanvas-end show')[0];
+    if(a){
+        a.classList.remove("show")
+    }
+
   }, [abc]);
 
   return (
@@ -52,44 +64,62 @@ const NavBar = () => {
         </div>
 
         <>
-          {[false].map((expand) => (
+        {/* <Navbar expand="lg" variant="light" bg="light">
+      <Container>
+        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        <Navbar.Toggle onClick={() => setShow(!show)} aria-controls="navbar-nav" />
+        <Navbar.Collapse id="navbar-nav" className={show ? 'show' : ''}>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar> */}
+          {/* {[false].map((expand) => ( */}
+
             <Navbar
-              key={expand}
               bg="light"
-              expand={expand}
+              expand={expanded}
               className="mb-3 bm-burger-button"
             >
               <Container fluid>
                 <Navbar.Toggle
-                  aria-controls={`offcanvasNavbar-expand-${expand}`}
+                  // aria-controls={`offcanvasNavbar-expand-${expanded}`}
+                  // onClick={handleTdudeoggle}
                 />
+                <Navbar.Collapse id="basic-navbar-nav"  className="show">
+
                 <Navbar.Offcanvas
                   style={{ marginTop: "5rem", backgroundColor: "#11133c" }}
-                  id={`offcanvasNavbar-expand-${expand}`}
-                  aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
+                  // id={`offcanvasNavbar-expand-${expanded}`}
+                  aria-labelledby={`offcanvasNavbarLabel-expand-${expanded}`}
                   placement="end"
                 >
                   <Offcanvas.Body>
                     <Nav className="justify-content-end flex-grow-1 pe-3">
-                      <Nav.Link href="/" className="menuLinkColor">
+                      <Link to="" className="menuLinkColor">
                         <p>Home</p>
-                      </Nav.Link>
-                      <Nav.Link href="/about-us" className="menuLinkColor">
+                      </Link>
+                      <Link to="/about-us" className="menuLinkColor">
                         <p>About Us</p>
-                      </Nav.Link>
-                      <Nav.Link href="/contact-us" className="menuLinkColor">
+                      </Link>
+                      <Link to="/contact-us" className="menuLinkColor">
                         <p>Contact US</p>
-                      </Nav.Link>
+                      </Link>
 
-                      <Nav.Link href="/programs" className="menuLinkColor">
+                      <Link to="/programs" className="menuLinkColor">
                         <p>Programs</p>
-                      </Nav.Link>
+                      </Link>
                     </Nav>
                   </Offcanvas.Body>
                 </Navbar.Offcanvas>
+                </Navbar.Collapse>
+        
               </Container>
             </Navbar>
-          ))}
+          {/* ))} */}
         </>
 
         <div style={{ zIndex: 10 }} className="menus">

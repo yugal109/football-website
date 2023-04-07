@@ -13,9 +13,9 @@ const AboutUs = () => {
     return (
         <section class="about">
             
-            <div class="about_title">
+            {/* <div class="about_title">
                 THE <br /> <span>Club</span>
-            </div>
+            </div> */}
 
             <p class="about_text">
                 Affiliated to Karnataka State Football Association, Bangalore Super Strikers is a football club founded by Mr Devraj and Mrs Rajammal. It is presently being run by its president Mr Ramakrishna D. The club strives to help players reach their maximum potential at higher levels of football, such as the state level and national levels.

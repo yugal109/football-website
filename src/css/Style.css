@@ -218,6 +218,7 @@ img{
 .large_nav_image{
   /* width: 100%; */
   height: 10%;
+  z-index: 1 !important;
 }
 
 
@@ -420,12 +421,14 @@ img{
 .achievements_content{
   margin-top: 30px;
 }
-.achievements .achievements_content .read_more_btn{
+/* .achievements .achievements_content  */
+.read_more_btn{
   background-color: var(--yellow);
   border-radius: 5px;
   padding: 0 5px;
   font-weight: 500;
-  margin-left: 10px;
+  margin-top: 10px;
+  /* margin-left: 10px; */
 }
 .achievements .achievements_content .row{
   flex-wrap: nowrap;
@@ -496,7 +499,7 @@ img{
 /* ---------- footer ------ */
 
 .footer{
-  background: url("../img/football-grass.jpg");
+  background: url("../img/football-grass.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

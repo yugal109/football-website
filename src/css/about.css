@@ -5,18 +5,35 @@
     width: 100% !important;
 }
 
+.players_title_about{
+    background-color: var(--yellow);
+    color:var(--blue) !important;
+    padding: 5px 20px;
+    font-size: 34px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
 .about{
     margin-bottom: 100px;
 }
 .mbA{
     margin-bottom: 22px;
 }
-.about .about_title{
+/* .about  */
+.about_title{
     background-color: var(--yellow);
+    margin-top: -8rem !important;
+    z-index: 1000 !important;
     padding: 5px 20px;
-    font-size: 34px;
+    font-size: 45px !important;
     margin-bottom: 1rem !important;
-    font-weight: bolder;
+    font-weight: 900;
     text-align: center;
     color: var(--blue);
     text-transform: uppercase;
@@ -24,14 +41,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 350px;
     height: 300px;
     
     
     margin: auto;
 }
 .about .about_title span{
-    font-size: 50px;
+    font-size: 70px;
 }
 .about_text{
     /* padding: 0 120px; */

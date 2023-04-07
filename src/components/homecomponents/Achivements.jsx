@@ -2,40 +2,92 @@ import React from 'react'
 
 const Achivements = () => {
   return (
-    <section className="achievements">
-    <div className="achievements_title">
-        BSS FC’s Achievements
-    </div>
+    <section className="lts_video">
+    <div className="lts_video_line"></div>
+    <div className="">
+        <div className="trapezoidYellow ">
+            <div className="trapezoidYellowTitle">
+                <p>ACHIVEMENTS</p>
+            </div>
 
-    <div className="achievements_content">
+        </div>
         <div className="container">
-            <div className="row">
-                <div className="col-5 achievement_box">
-                    <div className="achive_img">
-                        <i className="fas fa-trophy achive_icon"></i>
-                    </div>
-                    <p className="achive_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, asperiores! Atque saepe odio quae neque ut, ullam eum.</p>
-                    <button className="read_more_btn">Read More</button>
-                </div>
+            <div className="news_blog">
+                <div className="row">
+                    <div className="col-lg-4 text-center mt-4">
+                        <div className="position-relative video_block bg_blue">
+                            <div className="video_title_watch_now">
+                                {/* <div className="trapezoidWhite text-end">
+                                    <div className="trapezoidWhite_title">
+                                        <p>Watch Now</p>
+                                    </div>
+                                </div> */}
 
-                <div className="col-5 achievement_box">
-                    <div className="achive_img">
-                        <i className="fas fa-trophy achive_icon"></i>
-                    </div>
-                    <p className="achive_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, asperiores! Atque saepe odio quae neque ut, ullam eum.</p>
-                    <button className="read_more_btn">Read More</button>
-                </div>
+                            </div>
+                            <div className="position-absolute bottom-0 p-3 text-white">
+                                <div className="d-flex">
+                                    <i className="fas fa-trophy achive_icon" style={{color:"yellow",fontSize:50}}></i>
+                                </div>
+                                
+                            </div>
 
-                <div className="col-5 achievement_box">
-                    <div className="achive_img">
-                        <i className="fas fa-trophy achive_icon"></i>
+                        </div>
+                    <p style={{color:"black"}} className="text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    <br/>
+                    <button className='read_more_btn'>Read More</button>
+                    </p>
                     </div>
-                    <p className="achive_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, asperiores! Atque saepe odio quae neque ut, ullam eum.</p>
-                    <button className="read_more_btn">Read More</button>
+
+                    <div className="col-lg-4 text-center mt-4">
+                        <div className="position-relative video_block bg_blue">
+                            <div className="video_title_watch_now">
+                                {/* <div className="trapezoidWhite text-end">
+                                    <div className="trapezoidWhite_title">
+                                        <p>Watch Now</p>
+                                    </div>
+                                </div> */}
+                            </div>
+                            <div className="position-absolute bottom-0 p-3 text-white">
+                                <div className="d-flex">
+                                    <i className="fas fa-trophy achive_icon" style={{color:"yellow",fontSize:50}}></i>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    <p style={{color:"black"}} className="text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+                    <br/>
+                    <button className='read_more_btn'>Read More</button>
+                    </p>
+                    </div>
+
+                    <div className="col-lg-4 text-center mt-4">
+                        <div className="position-relative video_block bg_blue">
+                            <div className="video_title_watch_now">
+                                {/* <div className="trapezoidWhite text-end">
+                                    <div className="trapezoidWhite_title">
+                                        <p>Watch Now</p>
+                                    </div>
+                                </div> */}
+                            </div>
+                            <div className="position-absolute bottom-0 p-3 text-white">
+                                <div className="d-flex">
+                                    <i className="fas fa-trophy achive_icon" style={{color:"yellow",fontSize:50}}></i>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    <p style={{color:"black"}} className="text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    <br/>
+                    <button className='read_more_btn'>Read More</button>
+                    </p>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
+
 </section>
   )
 }

@@ -16,7 +16,9 @@ const AboutUs = () => {
         THE <br/> <span>Club</span> 
     </div>
     <p class="about_text">damnLorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis alias quibusdam modi magnam! Dolor iure tempore mollitia exercitationem expedita in, iste culpa quasi consequatur ipsum necessitatibus corrupti modi corporis beatae distinctio quaerat omnis aliquam, nisi quam, nam fugiat vitae hic nesciunt? Sunt libero quasi odit minima laboriosam eos perferendis non?</p>
-
+    <div  className="players_title_about">
+        four heads
+        </div>
     <div class="container-fluid">
         <div class="row about_block_row">
             <div class="col-3 about_block">

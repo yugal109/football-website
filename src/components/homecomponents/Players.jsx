@@ -1,5 +1,6 @@
 import React from 'react'
 // import player1 from "../../img/player1"
+import players from "../../img/players.png"
 import player from "../../img/pls.jpg";
 import player2 from "../../img/player2.jpg";
 
@@ -15,13 +16,13 @@ const Players = () => {
             <div className="row">
                 <div>
                     <div className="players_content">
+                        <img src={players}/>
 
-                        <div className="">
+                        {/* <div className="">
                             <div className="trapezoid_players">
                                 <p className="senior">JUNIOR</p>
                                 <p className="senior_plyR">PLAYERS</p>
-                                {/* hello */}
-                                {/* <img src={player1}/> */}
+                         
                                 <img src={player2}/>
                             </div>
                         </div>
@@ -35,7 +36,7 @@ const Players = () => {
                                 <p className="senior_plyR_left">PLAYERS</p>
                                 <img src={player}/>
                             </div>
-                        </div>
+                        </div> */}
 
                     </div>
                 </div>

@@ -14,6 +14,7 @@ const HomeScreen = () => {
             <VisonAndMission/>
             <Players/>
             <Achivements/>
+            {/* <LatestVideo /> */}
             <Club/>
         </>
 

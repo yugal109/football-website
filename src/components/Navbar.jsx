@@ -3,7 +3,7 @@ import homagebanner from "../img/home_bannar.png";
 import aboutbanner from "../img/about_us.jpg";
 import contactbanner from "../img/contect.jpeg";
 import logo11 from "../img/logo_11.png";
-import programs from "../img/programs.jpg";
+import programs from "../img/programs.png";
 import hambur from "../img/menu.png";
 // import { slide as Menu } from 'react-burger-menu'
 import { slide as Menu } from "react-burger-menu";
@@ -15,7 +15,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import "../css/programs.css"
+import "../css/programs.css";
 
 const NavBar = () => {
   const abc = useLocation();
@@ -44,7 +44,7 @@ const NavBar = () => {
   return (
     <div className="home_main">
       <div className="header">
-        <div style={{zIndex:100}} className="header_logo">
+        <div style={{ zIndex: 100 }} className="header_logo">
           <Link to="">
             <img src={logo11} alt="" />
           </Link>
@@ -63,12 +63,11 @@ const NavBar = () => {
                   aria-controls={`offcanvasNavbar-expand-${expand}`}
                 />
                 <Navbar.Offcanvas
-                  style={{ marginTop: "5rem", backgroundColor: "gray" }}
+                  style={{ marginTop: "5rem", backgroundColor: "#11133c" }}
                   id={`offcanvasNavbar-expand-${expand}`}
                   aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
                   placement="end"
                 >
-                 
                   <Offcanvas.Body>
                     <Nav className="justify-content-end flex-grow-1 pe-3">
                       <Link to="" className="menuLinkColor">
@@ -84,8 +83,6 @@ const NavBar = () => {
                       <Link to="/programs" className="menuLinkColor">
                         <p>Programs</p>
                       </Link>
-
-
                     </Nav>
                   </Offcanvas.Body>
                 </Navbar.Offcanvas>
@@ -126,14 +123,12 @@ const NavBar = () => {
             </div>
           </div>
         ) : location == "programs" ? (
-    
           <div class="gfg">
-             <img className="program_image" src={img} alt="" />
-          <h1 class="first-txt">
+            <img className="program_image" src={img} alt="" />
+            {/* <h1 class="first-txt">
              PROGRAM 
-          </h1>
-        
-      </div>
+          </h1> */}
+          </div>
         ) : (
           <img className="large_nav_image" src={img} alt="" />
         )}

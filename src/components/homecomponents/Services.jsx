@@ -1,7 +1,7 @@
 import React from 'react'
-import trained_coach from "../../img/TRAINED COACHES-01-01-01.png"
+import trained_coach from "../../img/trained-coaches.png"
 import spacious from "../../img/SPACIOUS GREEN GR01JND__-01-01.png"
-import exclusively from "../../img/EXCLUSIVELY TRAINING-01-01.png"
+import exclusively from "../../img/exclusive-training.png"
 import personal_training from "../../img/PERSONAL TRAINING-01-01.png"
 
 

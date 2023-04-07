@@ -110,9 +110,23 @@ img{
   padding-left: 50px;
 }
 
+.gfg {
+  position: relative;
+}
+
+.first-txt {
+  position: absolute;
+  /* top: 30%; */
+  /* left: 2%; */
+  z-index: 100;
+  /* font-size:15rem; */
+  color: var(--yellow);
+  font-weight: 900;
+}
+
 .bannar_text_home h1{
   color: var(--blue);
-  font-size: 70px;
+  font-size: 30px;
   font-weight: bolder;
   text-transform: uppercase;
 }
@@ -124,9 +138,12 @@ img{
 }
 .bannar_text_home button{
   background-color: var(--blue);
+  width:10rem;
+  height: 4rem;
   padding: 6px 12px;
   color: white;
   font-weight: 500;
+  font-size: 20px;
   border-radius: 12px;
 }
 

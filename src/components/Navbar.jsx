@@ -112,16 +112,37 @@ const NavBar = () => {
       </div>
       <section className="bannar">
         {location && location == "home" ? (
-          <div className="bannar_main">
-            <div className="bannar_img">
-              <div className="bannar_text_home">
-                <h1>Lorem ipsum dolor sit amet</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <button>Join Now</button>
+          <div class="gfg">
+          <img className="program_image" src={img} alt="" />
+          <div className="first-txt">
+          <div className="bannar_text_home">
+                 <h1>Lorem ipsum dolor sit amet</h1>
+                 <p>
+                  Lorem ipsum dolor sit amet 
+                  <br/>
+                  consectetur adipisicing elit.
+                  Lorem ipsum dolor sit amet 
+                  <br/>
+                  consectetur adipisicing elit.
+                  <br/>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+              <button>Join Now</button>
               </div>
-              {img && <img className="large_nav_image" src={img} alt="" />}
-            </div>
           </div>
+         
+
+        </div>
+          // <div className="bannar_main">
+          //   <div className="bannar_img">
+          //     <div className="bannar_text_home">
+          //       <h1>Lorem ipsum dolor sit amet</h1>
+          //       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          //       <button>Join Now</button>
+          //     </div>
+          //     {img && <img className="large_nav_image" src={img} alt="" />}
+          //   </div>
+          // </div>
         ) : location == "programs" ? (
           <div class="gfg">
             <img className="program_image" src={img} alt="" />

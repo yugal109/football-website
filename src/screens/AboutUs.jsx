@@ -15,7 +15,12 @@ const AboutUs = () => {
     <div class="about_title">
         THE <br/> <span>Club</span> 
     </div>
-    <p class="about_text">damnLorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis alias quibusdam modi magnam! Dolor iure tempore mollitia exercitationem expedita in, iste culpa quasi consequatur ipsum necessitatibus corrupti modi corporis beatae distinctio quaerat omnis aliquam, nisi quam, nam fugiat vitae hic nesciunt? Sunt libero quasi odit minima laboriosam eos perferendis non?</p>
+    <p class="about_text">
+        damnLorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis alias quibusdam modi magnam! Dolor iure tempore mollitia exercitationem expedita in, iste culpa quasi consequatur ipsum necessitatibus corrupti modi corporis beatae distinctio quaerat omnis aliquam, nisi quam, nam fugiat vitae hic nesciunt? Sunt libero quasi odit minima laboriosam eos perferendis non?
+        damnLorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis alias quibusdam modi magnam! Dolor iure tempore mollitia exercitationem expedita in, iste culpa quasi consequatur ipsum necessitatibus corrupti modi corporis beatae distinctio quaerat omnis aliquam, nisi quam, nam fugiat vitae hic nesciunt? Sunt libero quasi odit minima laboriosam eos perferendis non?
+        damnLorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis alias quibusdam modi magnam! Dolor iure tempore mollitia exercitationem expedita in, iste culpa quasi consequatur ipsum necessitatibus corrupti modi corporis beatae distinctio quaerat omnis aliquam, nisi quam, nam fugiat vitae hic nesciunt? Sunt libero quasi odit minima laboriosam eos perferendis non?
+        damnLorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis alias quibusdam modi magnam! Dolor iure tempore mollitia exercitationem expedita in, iste culpa quasi consequatur ipsum necessitatibus corrupti modi corporis beatae distinctio quaerat omnis aliquam, nisi quam, nam fugiat vitae hic nesciunt? Sunt libero quasi odit minima laboriosam eos perferendis non?
+        </p>
     <div  className="players_title_about">
         four heads
         </div>
@@ -69,7 +74,15 @@ const AboutUs = () => {
             <img src={ceo} className='founder_bg_img'  alt=""/>
             <div class="founder_massage_text">
                 <h2>FOUNDER'S MASSAGE</h2>
-                <p class="founder_msg">iure ipsa odio blanditiis porro assumenda cum cupiditate, fuga ad repudiandae assumenda veritatis sed iure.</p>
+                <p class="founder_msg">
+                    iure ipsa odio blanditiis porro assumenda cum cupiditate, fuga ad repudiandae assumenda veritatis sed iure.
+                    iure ipsa odio blanditiis porro assumenda cum cupiditate, fuga ad repudiandae assumenda veritatis sed iure.
+                    iure ipsa odio blanditiis porro assumenda cum cupiditate, fuga ad repudiandae assumenda veritatis sed iure.
+                    iure ipsa odio blanditiis porro assumenda cum cupiditate, fuga ad repudiandae assumenda veritatis sed iure.
+                    iure ipsa odio blanditiis porro assumenda cum cupiditate, fuga ad repudiandae assumenda veritatis sed iure.
+                    iure ipsa odio blanditiis porro assumenda cum cupiditate, fuga ad repudiandae assumenda veritatis sed iure.
+                    iure ipsa odio blanditiis porro assumenda cum cupiditate, fuga ad repudiandae assumenda veritatis sed iure.
+                </p>
                 <p class="founder_name_left">- Lorem Impus</p>
             </div>
         </div>

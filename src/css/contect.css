@@ -10,6 +10,12 @@
 .contect-page{
     margin: 120px 0;
 }
+.footer_img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .conct_page_title{
     background-color: var(--blue);
@@ -20,7 +26,7 @@
     color: var(--yellow);
     text-transform: uppercase;
     width: 300px;
-    margin-left: 4rem !important;
+    /* margin-left: 4rem !important; */
 }
 
 .contect{

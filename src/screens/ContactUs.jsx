@@ -8,7 +8,7 @@ const ContactUs = () => {
       
 
         <div className="footer_img">
-  <div style={{marginLeft:50}} className="conct_page_title" >
+  <div  className="conct_page_title" >
             Contact Us
         </div>
             {/* <!-- <img src="images/h-dark-parallax.jpg" alt=""> --> */}

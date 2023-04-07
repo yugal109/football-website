@@ -16,10 +16,7 @@ const AboutUs = () => {
         THE <br/> <span>Club</span> 
     </div>
     <p class="about_text">
-        damnLorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis alias quibusdam modi magnam! Dolor iure tempore mollitia exercitationem expedita in, iste culpa quasi consequatur ipsum necessitatibus corrupti modi corporis beatae distinctio quaerat omnis aliquam, nisi quam, nam fugiat vitae hic nesciunt? Sunt libero quasi odit minima laboriosam eos perferendis non?
-        damnLorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis alias quibusdam modi magnam! Dolor iure tempore mollitia exercitationem expedita in, iste culpa quasi consequatur ipsum necessitatibus corrupti modi corporis beatae distinctio quaerat omnis aliquam, nisi quam, nam fugiat vitae hic nesciunt? Sunt libero quasi odit minima laboriosam eos perferendis non?
-        damnLorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis alias quibusdam modi magnam! Dolor iure tempore mollitia exercitationem expedita in, iste culpa quasi consequatur ipsum necessitatibus corrupti modi corporis beatae distinctio quaerat omnis aliquam, nisi quam, nam fugiat vitae hic nesciunt? Sunt libero quasi odit minima laboriosam eos perferendis non?
-        damnLorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis alias quibusdam modi magnam! Dolor iure tempore mollitia exercitationem expedita in, iste culpa quasi consequatur ipsum necessitatibus corrupti modi corporis beatae distinctio quaerat omnis aliquam, nisi quam, nam fugiat vitae hic nesciunt? Sunt libero quasi odit minima laboriosam eos perferendis non?
+    Affiliated to Karnataka State Football Association, Bangalore Super Strikers is a football club founded by Mr Devraj and Mrs Rajammal. It is presently being run by its president Mr Ramakrishna D. The club strives to help players reach their maximum potential at higher levels of football, such as the state level and national levels.
         </p>
     <div  className="players_title_about">
         four heads

@@ -116,16 +116,20 @@ const NavBar = () => {
           <img className="program_image" src={img} alt="" />
           <div className="first-txt">
           <div className="bannar_text_home">
-                 <h1>Lorem ipsum dolor sit amet</h1>
+                 {/* <h1>Lorem ipsum dolor sit amet</h1> */}
                  <p>
-                  Lorem ipsum dolor sit amet 
+                 Welcome to 
+                 {" "}
+                 <span className="bannar_text_home_bold">
+                   Bangalore Super Strikers Football Club,
+                  </span>
+                 <br/>
+                  where we unleash your inner champion and 
                   <br/>
-                  consectetur adipisicing elit.
-                  Lorem ipsum dolor sit amet 
+                 help you take your game to the next level 
+                 <br/>
+                 with the ultimate training experience.
                   <br/>
-                  consectetur adipisicing elit.
-                  <br/>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   </p>
               <button>Join Now</button>
               </div>

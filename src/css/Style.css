@@ -130,9 +130,13 @@ img{
   font-weight: bolder;
   text-transform: uppercase;
 }
+.bannar_text_home_bold{
+  font-weight: 550;
+}
 .bannar_text_home p{
   color: var(--blue);
   margin: 22px 0;
+  font-weight: 200;
   font-size: 24px;
   padding-right: 40px;
 }

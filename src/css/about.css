@@ -27,9 +27,9 @@
 }
 /* .about  */
 .about_title{
+    z-index: 10000 !important;
     background-color: var(--yellow);
     margin-top: -8rem !important;
-    z-index: 1000 !important;
     padding: 5px 20px;
     font-size: 45px !important;
     margin-bottom: 1rem !important;

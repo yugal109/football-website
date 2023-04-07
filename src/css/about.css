@@ -267,7 +267,7 @@
     }
     .founder_name_left {
     font-size: 22px;
-    margin-top: 10px !important;
+    /* margin-top: 10px !important; */
     }
     
     #parallelogramLeft {
@@ -312,8 +312,8 @@
         margin-top: -2rem;
     }
     .founder_name_left{
-        margin-top: -5rem;
-        margin-left:18rem !important;
+        margin-top: -1rem;
+        /* margin-left:18rem !important; */
         font-size: medium;
     }
     .founder_bg_img{

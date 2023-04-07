@@ -74,14 +74,19 @@ const AboutUs = () => {
             <section class="founder_massage">
                 <div class="founder_bg">
                     <img src={ceo} className='founder_bg_img' alt="" />
-                    <div class="founder_massage_text">
+                    <div className="founder_massage_text">
                         <h2>FOUNDER'S MESSAGE</h2>
-                        <p class="founder_msg">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi erat neque, tempus sagittis tincidunt ac, interdum in mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec id ipsum et elit egestas commodo sed faucibus nisl. Etiam a convallis nisi. Ut ultricies porttitor rhoncus. 
+                        <p className="founder_msg">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi erat neque, tempus sagittis tincidunt ac, interdum in mauris. Vestibulum ante ipsum primis in faucibus
+                             orci luctus et ultrices posuere cubilia curae; 
                         </p>
-                        <p class="founder_name_left">-
+                        <div style={{width:"100%",display:"flex",justifyContent:"flex-end"}}>
+                        <p className='founder_name_left'>-
                             MR. PRABHU
                         </p>
+
+
+                        </div>
                     </div>
                 </div>
             </section>

@@ -267,7 +267,7 @@
     }
     .founder_name_left {
     font-size: 22px;
-    margin-top: 16px;
+    margin-top: 10px !important;
     }
     
     #parallelogramLeft {

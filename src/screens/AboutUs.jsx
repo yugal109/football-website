@@ -77,7 +77,7 @@ const AboutUs = () => {
                     <div class="founder_massage_text">
                         <h2>FOUNDER'S MESSAGE</h2>
                         <p class="founder_msg">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi erat neque, tempus sagittis tincidunt ac, interdum in mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec id ipsum et elit egestas commodo sed faucibus nisl. Etiam a convallis nisi. Ut ultricies porttitor rhoncus. Integer ac diam sit amet enim dignissim porttitor. Pellentesque tempus mattis magna, et dictum libero vulputate nec.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi erat neque, tempus sagittis tincidunt ac, interdum in mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec id ipsum et elit egestas commodo sed faucibus nisl. Etiam a convallis nisi. Ut ultricies porttitor rhoncus. 
                         </p>
                         <p class="founder_name_left">-
                             MR. PRABHU

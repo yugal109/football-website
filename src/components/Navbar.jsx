@@ -47,10 +47,26 @@ const NavBar = () => {
       setImage(homagebanner);
     }
     // setShow(false);
+        //  window.scrollTo(0, 0)show
+
+
     const a=document.getElementsByClassName('offcanvas offcanvas-end show')[0];
+    const b=document.getElementsByClassName('navbar-toggler')[0];
     if(a){
-        a.classList.remove("show")
+      // setTimeout(()=>{
+        if(a.classList.contains("show"))
+        {
+          b.click();
+        }
+
+
+        // if(b.classList.contains("show"))
+        // {
+          // a.click();
+        // }
+      // },[300])
     }
+
 
   }, [abc]);
 

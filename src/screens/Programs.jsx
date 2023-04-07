@@ -1,7 +1,8 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "../css/program-ac-training.css";
 import prv from "../img/pvt_traning.png";
 import fit from "../img/fitness_acd_traning.png";
+import logo11 from "../img/logo_11.png"
 
 const FirstTopOne = () => {
   return (
@@ -402,9 +403,65 @@ const SummerCamp = () => {
   );
 };
 
+const NewOne=()=>{
+  return (<div className="circles">
+    <div className="circles_firstrow">
+      <div className="circle_1">
+ACADEMY 
+<br/>
+TRANING
+      </div>
+      <div className="circle_1">
+        <div className="circle_1_text">
+        SCHOOL
+        <div>
+      UNIVERSITY
+        </div>
+        <div>
+       COACHING & 
+       SCHOLARSHIP
+
+
+        </div>
+        </div>
+      </div>
+
+
+    </div>
+    <div className="circles_midrow">
+    <img src={logo11} className="circles_midrow_image" salt="" />
+
+    </div>
+    <div className="circles_firstrow">
+ <div className="circle_1">
+        <div className="circle_1_text">
+        AGE  
+        <div>
+WISE
+        </div>
+        <div>
+PROGRESSION
+
+        </div>
+        </div>
+      </div>
+      <div className="circle_1">
+        SUMMER CAMP
+      </div>
+     
+
+
+    </div>
+  </div>)
+}
+
 const Programs = () => {
+  useEffect(()=>{
+    // window.scrollTo(0, 0)
+},[])
   return (
     <>
+    <NewOne/>
       <FirstTopOne />
       <SummerCamp />
       <SecondOne />

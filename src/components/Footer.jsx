@@ -1,5 +1,6 @@
 import React from 'react'
 import logo11 from "../img/logo_11.png"
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -19,11 +20,11 @@ const Footer = () => {
                             <i className="footer_title">Quick Links</i>
                             <ul className="list-group">
                                 <a href="/"><li className="">Home</li></a>
-                                <a href="./about-us"><li className="">About</li></a>
-                                <a href="./programs"><li className="">Program</li></a>
+                                <Link to="/about-us"><li className="">About</li></Link>
+                                <Link to="/programs"><li className="">Program</li></Link>
                                 <a href=""><li className="">Gallery</li></a>
                                 <a href=""><li className="">Technical Team</li></a>
-                                <a href="./contact-us"><li className="">Contact</li></a>
+                                <Link to="/contact-us"><li className="">Contact</li></Link>
                                 <a href=""><li className="">Privecy Policy</li></a>
                                 <a href=""><li className="">Refund Policy</li></a>
                                 <a href=""><li className="">Terms and Conditions</li></a>

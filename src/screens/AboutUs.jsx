@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "../css/about.css"
 import football from "../img/football.png"
 import scr from "../img/soccer-jersey.png"
@@ -10,12 +10,15 @@ import vision from "../img/vision.png"
 import mission from "../img/mission.png"
 
 const AboutUs = () => {
+    useEffect(()=>{
+        window.scrollTo(0, 0)
+    },[])
     return (
         <section class="about">
             
-            {/* <div class="about_title">
+            <div class="about_title">
                 THE <br /> <span>Club</span>
-            </div> */}
+            </div>
 
             <p class="about_text">
                 Affiliated to Karnataka State Football Association, Bangalore Super Strikers is a football club founded by Mr Devraj and Mrs Rajammal. It is presently being run by its president Mr Ramakrishna D. The club strives to help players reach their maximum potential at higher levels of football, such as the state level and national levels.

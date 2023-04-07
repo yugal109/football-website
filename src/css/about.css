@@ -41,8 +41,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 350px;
-    height: 300px;
+    width: 310px;
+    height: 250px;
     
     
     margin: auto;
@@ -320,8 +320,14 @@
         width: 100%;
     }
     .about_title{
-        margin-top: 0.01rem !important;
+        margin-top: 0.00001rem !important;
+        width: 83px !important;
+        font-size: 10px !important;
+        height: 80px !important;
+    }
+    .about_title span{
 
+        font-size: 20px !important;
     }
     
     }

@@ -169,6 +169,15 @@
 .program_css{
     margin-top: 1rem;
 }
+.fitness_traning_title_text_new{
+    position: absolute;
+    top: 14px;
+    right: 24px;
+    color: var(--blue);
+    font-weight: bolder;
+    font-size: 24px;
+    text-transform: uppercase;   
+}
 
 @media (max-width: 768px) {
     .pat_title {
@@ -222,9 +231,20 @@
 
     }
     .fitness_traning_title_text{
-
         margin-top: 2rem;
+        /* margin-left: 2rem; */
         margin-right: 1rem;
+    }
+    .fitness_traning_title_text_new{
+        position: absolute;
+        top: 14px;
+        right: 24px;
+        color: var(--blue);
+        font-weight: bolder;
+        font-size: 24px;
+        text-transform: uppercase;
+        margin-left: 5rem;
+        margin-top: 1.5rem;
     }
 
     }

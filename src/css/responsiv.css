@@ -1,3 +1,9 @@
+
+@media only screen and (max-width: 400px) {
+  body{
+    margin-right: -1rem;
+  }
+}
 @media only screen and (max-width: 768px) {
 .large_nav_image{
   display: none;
@@ -21,7 +27,12 @@
   
  
   .after_res_img{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .after_res_img img{
+    width: 100%;
   }
   
   .home_main .bannar_img img {
@@ -118,6 +129,20 @@
     margin-left: auto;
     margin-bottom: 20px;
   }
+  .service_image{
+    width: 100%;
+    height: auto;
+  }
+  .players_content_image{
+    width: 100%;
+  }
+  .players_title{
+    width: 90%;
+  }
+  .after_res_img{
+    width: 100% !important;
+  }
+
   
 
   

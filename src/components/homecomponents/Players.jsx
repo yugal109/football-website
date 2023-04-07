@@ -16,7 +16,7 @@ const Players = () => {
             <div className="row">
                 <div>
                     <div className="players_content">
-                        <img src={players}/>
+                        <img className='players_content_image' src={players} style={{width:800}}/>
 
                         {/* <div className="">
                             <div className="trapezoid_players">

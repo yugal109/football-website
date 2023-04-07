@@ -17,6 +17,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import "../css/programs.css";
 
+
 const NavBar = () => {
   const abc = useLocation();
   const [basicOpen, setBasicOpen] = useState(false);
@@ -46,7 +47,7 @@ const NavBar = () => {
       <div className="header">
         <div style={{ zIndex: 100 }} className="header_logo">
           <Link to="">
-            <img src={logo11} alt="" />
+            <img style={{marginLeft:20,marginTop:10}} src={logo11} alt="" />
           </Link>
         </div>
 
@@ -70,19 +71,19 @@ const NavBar = () => {
                 >
                   <Offcanvas.Body>
                     <Nav className="justify-content-end flex-grow-1 pe-3">
-                      <Link to="" className="menuLinkColor">
+                      <Nav.Link href="/" className="menuLinkColor">
                         <p>Home</p>
-                      </Link>
-                      <Link to="/about-us" className="menuLinkColor">
+                      </Nav.Link>
+                      <Nav.Link href="/about-us" className="menuLinkColor">
                         <p>About Us</p>
-                      </Link>
-                      <Link to="/contact-us" className="menuLinkColor">
+                      </Nav.Link>
+                      <Nav.Link href="/contact-us" className="menuLinkColor">
                         <p>Contact US</p>
-                      </Link>
+                      </Nav.Link>
 
-                      <Link to="/programs" className="menuLinkColor">
+                      <Nav.Link href="/programs" className="menuLinkColor">
                         <p>Programs</p>
-                      </Link>
+                      </Nav.Link>
                     </Nav>
                   </Offcanvas.Body>
                 </Navbar.Offcanvas>

@@ -4,6 +4,7 @@ import aboutbanner from "../img/about_us.jpg";
 import contactbanner from "../img/contect.jpeg";
 import logo11 from "../img/logo_11.png";
 import programs from "../img/programs.png";
+import techteam from "../img/technical_team.png"
 import hambur from "../img/menu.png";
 // import { slide as Menu } from 'react-burger-menu'
 import { slide as Menu } from "react-burger-menu";
@@ -43,7 +44,14 @@ const NavBar = () => {
     } else if (abc.pathname.slice(1, abc.pathname.length) == "programs") {
       setLocation("programs");
       setImage(programs);
-    } else {
+    } 
+  else if (abc.pathname.slice(1, abc.pathname.length) == "technical-team") {
+      setLocation("technical-team");
+      setImage(techteam);
+    } 
+
+
+    else {
       setImage(homagebanner);
     }
     // setShow(false);
@@ -124,10 +132,14 @@ const NavBar = () => {
                       <Link to="/contact-us" className="menuLinkColor">
                         <p>Contact US</p>
                       </Link>
-
                       <Link to="/programs" className="menuLinkColor">
                         <p>Programs</p>
                       </Link>
+                      <Link to="/technical-team" className="menuLinkColor">
+                        <p>Technical Team</p>
+                      </Link>
+
+
                     </Nav>
                   </Offcanvas.Body>
                 </Navbar.Offcanvas>
@@ -148,9 +160,14 @@ const NavBar = () => {
           <Link to="/programs" className="menuLinkColor">
             <p>Program</p>
           </Link>
+
           <p>Blog</p>
           <p>Gallery</p>
+          <Link to="/technical-team" className="menuLinkColor">
           <p>Technical Team</p>
+          </Link>
+
+
           <p>Foundation</p>
           <Link to="/contact-us" className="menuLinkColor">
             <p>Contact US</p>

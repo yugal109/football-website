@@ -1,0 +1,128 @@
+.top_part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.top_part_image{
+    width: 35%;
+    height:auto;
+}
+.top_part_first{
+    font-size: 2rem;
+    color:var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    width: 80%;
+    
+}
+.top_part_second{
+    font-size: 2rem;
+    color:var(--yellow);
+    background-color: var(--blue);
+    padding:0.4rem;
+    margin-top: 2rem;
+
+}
+.top_part_third{  
+    font-size: 2.4rem;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2rem;;
+}
+
+.top_part_fourth{
+    font-size: 2rem;
+    width: 80%;
+    margin-top: 2rem;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_part_fifth{
+    font-size: 3rem;
+    padding:1rem;
+    background-color: var(--blue);
+    color:var(--yellow);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+
+    margin-top: 2rem;;
+}
+.top_part_sixth{
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    /* margin-left: 5rem !important; */
+    font-weight: 900;
+
+}
+.top_part_seventh{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90% !important;
+
+}
+.top_part_eighth{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.top_part_eighth_list{
+    display: flex;
+    flex-direction: column;
+    margin-top:1rem;
+
+}
+.top_part_eighth_list div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:1rem;
+    font-size: 1.9rem;
+    justify-content: flex-start;
+    /* width: 30rem; */
+
+}
+.top_part_eighth_img_real{
+    width: 80%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .top_part_eighth{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 1rem;   
+    }
+    .top_part_image{
+        width: 100%;
+    }
+    .top_part_eighth_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

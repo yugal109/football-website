@@ -9,6 +9,7 @@ import MainLayout from './layouts/MainLayout'
 import ContactUs from "./screens/ContactUs"
 import AboutUs from './screens/AboutUs';
 import Programs from "./screens/Programs"
+import TechnicalTeam from './screens/TechnicalTeam'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route  path="/about-us" element={<AboutUs/>}/>
             <Route  path="/contact-us" element={<ContactUs/>}/>
             <Route  path="/programs" element={<Programs/>}/>
+            <Route  path="/technical-team" element={<TechnicalTeam/>}/>
             {/* </Route> */}
       </Routes>
             <Footer/>
